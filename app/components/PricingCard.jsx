@@ -1,6 +1,6 @@
 import React from 'react';
 // import Link from 'next/link';
-import {AiFillCheckCircle} from 'react-icons/ai';
+import { AiFillCheckCircle } from 'react-icons/ai';
 import axios from 'axios';
 
 export const PricingCard = ({price}) => {
