@@ -6,6 +6,7 @@ export async function GET(request) {
     const prices = await stripe.prices.list({
         limit:4,
     });
+    request
 
     return NextResponse.json(prices.data.reverse());
 }
